@@ -1,13 +1,18 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
 body{
   background-image: url("img/zen-bg.jpg"), url("img/blossoms.jpg");
   background-repeat:no-repeat, no-repeat;
   background-position:left top,right bottom;
 }
 .wrapper{
-  width:80%;
+  width:75%;
   margin:0 auto;
   color: #555753;
   line-height:1.6em;
+  position:relative;
 
 }
 #hImg1{
@@ -29,28 +34,57 @@ h2{
   font-style:italic;
   color: #7D775C;
 }
-nav > ul{
-  float:right;
+
+
+nav{
+  margin:0;
+  padding:0;
+}
+ nav> ul{
+  position:absolute;
+  background: transparent url(img/paper-bg.jpg) top left repeat-y;
   list-style-type: none;
-  background-image: url("img/paper-bg");
+    padding:10px;
+    margin:0;
+    margin-top:50px;
+    width:130px;
+    left:1235px;
 }
 
 nav li{
-  margin:.5em 0;
+ margin-bottom:5px;
+color:#5e5839;
+font-weight: bold;
 }
 
-a{
-  font-style: italic bold;
+nav span li{
+  font-weight:normal;
+  color: black;
+}
+
+nav .headLi{
+  color:#988F5E;
+}
+
+
+.space{
+    margin-bottom:25px;
 }
 #quote{
   float:left;
-  width:250px;
-  height:250px;
-  line-height: 2.5em;
-  font-family: 'Droid Serif', serif;
-  font-style:italic;
-  text-align: center;
+  line-height: 1.5em;
+  font-style: italic;
+  width: 180px;
+  height:200px;
+  margin-left: 0;
+  padding: 0;
+}
 
+a:link{
+  text-decoration:none;
+   font-weight:bold;
+   color: #B7A5DF;
+   font-style: italic;
 }
 footer{
   margin:0 auto;
