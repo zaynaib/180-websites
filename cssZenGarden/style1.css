@@ -1,0 +1,66 @@
+body{
+  background-image: url("img/zen-bg.jpg"), url("img/blossoms.jpg");
+  background-repeat:no-repeat, no-repeat;
+  background-position:left top,right bottom;
+}
+.wrapper{
+  width:80%;
+  margin:0 auto;
+  color: #555753;
+  line-height:1.6em;
+
+}
+#hImg1{
+  margin-left:100px;
+  margin-top:30px;
+}
+
+#hImg2{
+  position:relative;
+  margin-right:120px;
+}
+
+#hImg3{
+  float:right;
+  margin-top:30px;
+  margin-left:30px;
+}
+h2{
+  font-style:italic;
+  color: #7D775C;
+}
+nav > ul{
+  float:right;
+  list-style-type: none;
+  background-image: url("img/paper-bg");
+}
+
+nav li{
+  margin:.5em 0;
+}
+
+a{
+  font-style: italic bold;
+}
+#quote{
+  float:left;
+  width:250px;
+  height:250px;
+  line-height: 2.5em;
+  font-family: 'Droid Serif', serif;
+  font-style:italic;
+  text-align: center;
+
+}
+footer{
+  margin:0 auto;
+  text-align: center;
+}
+
+footer >ul{
+  list-style-type: none;
+
+}
+footer li{
+  display:inline-block;
+}
