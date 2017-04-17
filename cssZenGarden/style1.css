@@ -1,12 +1,21 @@
+/*======================
+ css Reset
+ ====================*/
+
 html {
 	margin: 0;
 	padding: 0;
 	}
+
+  /*===================
+  Global Style
+  ====================*/
 body{
   background-image: url("img/zen-bg.jpg"), url("img/blossoms.jpg");
   background-repeat:no-repeat, no-repeat;
   background-position:left top,right bottom;
 }
+
 .wrapper{
   width:75%;
   margin:0 auto;
@@ -15,27 +24,19 @@ body{
   position:relative;
 
 }
-#hImg1{
-  margin-left:100px;
-  margin-top:30px;
-}
 
-#hImg2{
-  position:relative;
-  margin-right:120px;
-}
+/*===================
+Heading
+====================*/
 
-#hImg3{
-  float:right;
-  margin-top:30px;
-  margin-left:30px;
-}
 h2{
   font-style:italic;
   color: #7D775C;
 }
 
-
+/*===================
+Navigation
+====================*/
 nav{
   margin:0;
   padding:0;
@@ -70,22 +71,26 @@ nav .headLi{
 .space{
     margin-bottom:25px;
 }
-#quote{
-  float:left;
-  line-height: 1.5em;
-  font-style: italic;
-  width: 180px;
-  height:200px;
-  margin-left: 0;
-  padding: 0;
+
+#hImg1{
+  margin-left:100px;
+  margin-top:30px;
 }
 
-a:link{
-  text-decoration:none;
-   font-weight:bold;
-   color: #B7A5DF;
-   font-style: italic;
+#hImg2{
+  position:relative;
+  margin-right:120px;
 }
+
+#hImg3{
+  float:right;
+  margin-top:30px;
+  margin-left:30px;
+}
+
+/*===================
+Footer
+====================*/
 footer{
   margin:0 auto;
   text-align: center;
@@ -98,3 +103,42 @@ footer >ul{
 footer li{
   display:inline-block;
 }
+
+
+
+/*===================
+Links
+====================*/
+a:link{
+  text-decoration:none;
+   font-weight:bold;
+   color: #B7A5DF;
+   font-style: italic;
+}
+/*===================
+Miscellaneous
+====================*/
+#quote{
+  float:left;
+  line-height: 1.5em;
+  font-style: italic;
+  width: 180px;
+  height:200px;
+  margin-left: 0;
+  padding: 0;
+}
+
+/*===================
+Comments
+====================*/
+/*
+This is an attempt to recreate Jennifer Dewalts experiment 180 websites in 180 days for myself. Here's a link to an interview about her project:
+http://ihadtendollars.com/interviews/jennifer-dewalt.html. I simply do not want to do just 100 days of code challenge. I wanted to focus on the mastery of one skill which in this case
+is CSS. I find that I learn a lot more from project base work and repetition than just trying to randomly learn 5 different skills at once.
+My hopes are within the next 30 days I will be at least a intermediate CSS zen master. For about 30 days I will recreate about 30 different webpages from the
+CSS Zen Garden site. At the end of the 30 days if I feel that my skills are adequate I will move on to 30 days of Javascript basics. And so on and so on.
+
+*/
+
+
+*/
