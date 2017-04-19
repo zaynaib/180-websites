@@ -1,0 +1,28 @@
+/*
+color palette
+Used Google Chrome plugin Colorzilla to figure out the color scheme of CSS Zen Garden Webpage 002
+#FFC5A9
+#FFD7C4
+#E9838B
+
+http://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units/
+https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/
+https://www.w3schools.com/cssref/css_units.asp
+
+*/
+
+
+nav{
+  position:relative;
+}
+
+#headImg2{
+  text-align:center;
+}
+.wrapper{
+  width:75%;
+  position:absolute;
+  right:30px;
+  top:180px;
+  /*float:right;*/
+}
