@@ -8,21 +8,119 @@ Used Google Chrome plugin Colorzilla to figure out the color scheme of CSS Zen G
 http://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units/
 https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/
 https://www.w3schools.com/cssref/css_units.asp
+https://css-tricks.com/forums/topic/center-the-loading-gif-in-the-middle-of-the-screen/
+https://css-tricks.com/almanac/properties/c/clear/
 
 */
 
-
+/*
+======== Navigation ==========
+*/
 nav{
-  position:relative;
+  background-color:#FFD7C4;
+  float:left;
+    margin:0;
+
 }
+nav ul{
+  position:relative;
+  list-style-type:none;
+}
+
+nav li{
+  margin-top:5px;
+}
+
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #E98376;
+	}
+
+  span{
+  	text-decoration: none;
+  	color: black;
+
+  }
+/*
+======== Body ==========
+*/
+body{
+background-color: #FFC5A9;
+
+}
+
+p {
+	font: 11px/14px verdana, sans-serif;
+	margin-top: 0px;
+	}
+
+  h2{
+	font: bold 16px 'arial narrow', sans-serif;
+	text-transform: lowercase;
+	margin-bottom: 0px;
+	}
+.mainBody{
+  margin-top:10px;
+  margin-left: 350px;
+  float:right;
+  width:75%;
+  position: absolute;
+}
+
+
+
 
 #headImg2{
-  text-align:center;
+  text-align: center;
 }
-.wrapper{
-  width:75%;
-  position:absolute;
-  right:30px;
-  top:180px;
-  /*float:right;*/
+
+
+
+/*
+======== Header ==========
+*/
+
+header{
+  magin-bottom:50px;
+}
+.preamble{
+  background-color: #FFD7C4;
+  height:200px;
+}
+#headerImg{
+  position:relative;
+  float:left;
+}
+
+#quote{
+  position:relative;
+  padding-top:50px;
+}
+
+/*
+======== Footer ==========
+*/
+
+footer{
+  clear:both;
+  text-align: right;
+  position: relative;
+  display:none;
+}
+
+footer li{
+    display:inline;
+}
+
+
+
+
+
+
+
+
+#boxHeader{
+  background: #FFC5A9 url(/002/bg2.gif) top left repeat-x;
+
 }
